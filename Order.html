@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width = device-width"  >
+    <meta http-equiv="X-UA-Compatible" content = "ie=edge">
+    <meta name = "Restaurant Orders" content = "Adare Restaurant Order page">
+    <title>Adare Restuarant | Order Online </title>
+    <link rel="stylesheet" href="style/style.css">
+    
+</head>
+<body>
+<div class = "container">
+   <header>
+        <a href="index.html">
+            <img alt="logo" src="img/logo-adare-restaurant.png"
+            width="120" height="70">
+         </a>
+   </header>
+   <nav>
+    <a href = "index.html">Home</a>
+    <a href = "menu.html">Menu</a>
+    <a href = "Order.html">Order Online</a>
+    <a href = "voucher.html">Gift Vouchers</a>
+    <a href = "Reservation.html">Reservations</a>
+    <a href = "catering.html">Catering</a>
+    <a href = "contact.html">Contact</a>
+
+</nav>
+
+<main>
+    <h1 aria-hidden="true"> Order Below!</h1>
+    <p>Please use our handy form below to place your Adare order and have your food delivered
+      straight to your door.<br><br>
+      Alternatively, get yourself or a loved one a gift voucher!<br><br>
+      <a href= "voucher.html" target = "_blank">Buy a voucher</a>
+    </p>
+
+
+
+
+</main>
+
+<form class = "orderForm">
+  <p>Enter your details below</p>
+    <input type="text" name="Name" placeholder = "Name">
+    <input type="tel" name="telephone" placeholder = "Telephone Number">
+    <input type="email" name="email" placeholder = "Email Address">
+    <input type="text" name="Address" placeholder = "Address">
+    <br><input type="checkbox" name="selection1" value="spagBol"> Spaghetti Bolognese<br>
+    <input type="checkbox" name="selection2" value="margarita"> Margarita Pizza<br>
+    <input type="checkbox" name="selection3" value="fruta"><br>Fruta Di Mare<br>
+    <input type="checkbox" name="selection4" value="ragu"> Sausage Ragu<br><br><br>
+    <textarea name="requests" placeholder = "Special Instructions"></textarea><br>
+    <select name="Time">
+    <option value="now" selected>Now</option>
+    <option value="in an hour">In an hour</option>
+    <option value="in 2 hrs">In 2 hours</option>
+  </select><br>
+    <input type="submit" name="submit" value="Place Order">
+  
+  </form>
+
+<footer>
+    <p aria-hidden="true">Main St. BlackAbbey, Adara, Co Limerick. - Copyright 2017 &copy;</p>
+   </footer>
+</div>
+</body>
+</html>

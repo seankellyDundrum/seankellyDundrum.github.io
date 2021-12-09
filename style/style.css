@@ -1,0 +1,219 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color:white;
+    background-image: url(img/award-winning-fine-dining.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 1024px;
+}
+header{
+    height: 118px;
+    text-align: center;
+    padding-top: 40px;
+}
+nav{
+    background-color: rgb(0, 0, 0, 0.30);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+main{
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 240px;
+    text-align: center;
+    padding-right: 240px;
+   
+}
+footer{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+h1{
+    font-size: 84px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+nav a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+  .header {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    background: white;
+  }
+  
+
+  .leftcolumn {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 20px;
+    
+  }
+  
+ 
+  .rightcolumn {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 100px;
+    color: black;
+  }
+  .rightcolumn p{
+      color: black;
+      font-size: 20px;
+  }
+  
+  
+ 
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .content{
+      background-color: white;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  /* */
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .map img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 100px;
+  }
+  .map{
+      text-align: center;
+      padding-bottom: 50px;
+  }
+img{
+  border-radius: 30px;
+}
+.container-for-menu{
+
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.menuItem{
+  color: black;
+}
+form {
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 30%;
+  text-align: center;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  margin-top: 50px;
+  width: 90%;
+}
+form p{ 
+  color: black;
+}
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+  color: black;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: black;
+}
+.column p{
+  color: black;
+  padding: 30px;
+}
+.column h1{
+  color: black;
+  font-size: 2em;
+}
+.column img{
+  height: 150px;
+}
+main h1{
+  font-size: 4.5em;
+}
+header img{
+  width: 15%;
+  height: 100px;
+}
