@@ -9,31 +9,72 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<div class = "container">
-   <header>
-        <a href="index.html">
-            <img alt="logo" src="img/logo-adare-restaurant.png"
-            width="120" height="70">
-         </a>
-   </header>
-   <nav>
-    <a href = "index.html">Home</a>
-    <a href = "menu.html">Menu</a>
-    <a href = "Order.html">Order Online</a>
-    <a href = "voucher.html">Gift Vouchers</a>
-    <a href = "Reservation.html">Reservations</a>
-    <a href = "catering.html">Catering</a>
-    <a href = "contact.html">Contact</a>
+    <div class="container">
+        <header>
+            <a href="index.html">
+                <img alt="logo" src="img/logo-adare-restaurant.png"
+                     width="120" height="70">
+            </a>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="Order.html">Order Online</a>
+            <a href="voucher.html">Gift Vouchers</a>
+            <a href="Reservation.html">Reservations</a>
+            <a href="contact.html">Contact</a>
 
-</nav>
+        </nav>
 
-<main>
+        <main>
+            <h1 aria-hidden="true"> Make a Reservation</h1>
+            <p>
+                Please use our reservation form below to make a reservation with Adare!
+                Please ensure you enter the correct details in order for us to accomodate
+                you as best we can! We hope to see you soon.
+            </p>
+            
 
-</main>
+        </main>
 
-<footer>
-    <p aria-hidden="true">Main St. BlackAbbey, Adara, Co Limerick. - Copyright 2017 &copy;</p>
-   </footer>
-</div>
+        <form>
+            <div class="elem-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+            <div class="elem-group">
+                <label for="email">Your E-mail</label>
+                <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+            </div>
+            <div class="elem-group">
+                <label for="phone">Your Phone</label>
+                <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+            </div>
+            <label for="start">Date of visit:</label>
+
+            <input type="date" id="start" name="trip-start"
+                   value="2018-07-22"
+                   min="2018-01-01" max="2018-12-31">
+            <hr>
+            <div class="elem-group inlined">
+                <label for="adult">Adults</label>
+                <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+            </div>
+            <div class="elem-group inlined">
+                <label for="child">Children</label>
+                <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+            </div>
+            <hr>
+            <div class="elem-group">
+                <label for="message"><br>Anything Else?</label>
+                <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+            </div>
+            <button type="submit">Make Reservation!</button>
+        </form>
+
+        <footer>
+            <p aria-hidden="true">Main St. BlackAbbey, Adara, Co Limerick. - Copyright 2017 &copy;</p>
+        </footer>
+    </div>
 </body>
 </html>

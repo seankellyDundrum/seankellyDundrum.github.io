@@ -9,31 +9,62 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<div class = "container">
-   <header>
-        <a href="index.html">
-            <img alt="logo" src="img/logo-adare-restaurant.png"
-            width="120" height="70">
-         </a>
-   </header>
-   <nav>
-    <a href = "index.html">Home</a>
-    <a href = "menu.html">Menu</a>
-    <a href = "Order.html">Order Online</a>
-    <a href = "voucher.html">Gift Vouchers</a>
-    <a href = "Reservation.html">Reservations</a>
-    <a href = "catering.html">Catering</a>
-    <a href = "contact.html">Contact</a>
+    <div class="container">
+        <header>
+            <a href="index.html">
+                <img alt="logo" src="img/logo-adare-restaurant.png"
+                     width="120" height="70">
+            </a>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="Order.html">Order Online</a>
+            <a href="voucher.html">Gift Vouchers</a>
+            <a href="Reservation.html">Reservations</a>
+            <a href="contact.html">Contact</a>
 
-</nav>
+        </nav>
 
-<main>
+        <main>
+            <h1 aria-hidden="true"> Contact us</h1>
+            <p>
+                Please use our contact form below to contact us with any
+                queries you may have, we will do out best to accomodate any request and
+                reply to any questions within 24hrs!
+            </p>
+        </main>
 
-</main>
+        <div class="container">
+            <form>
 
-<footer>
-    <p aria-hidden="true">Main St. BlackAbbey, Adara, Co Limerick. - Copyright 2017 &copy;</p>
-   </footer>
-</div>
+                <div class="elem-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+                <div class="elem-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                <div class="elem-group">
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email" placeholder = "Johndoe@gmail.com">
+                </div>
+
+                    <div class="elem-group">
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </div>
+
+</form>
+        </div>
+
+
+        <footer>
+            <p aria-hidden="true">Main St. BlackAbbey, Adara, Co Limerick. - Copyright 2017 &copy;</p>
+        </footer>
+    </div>
 </body>
 </html>
